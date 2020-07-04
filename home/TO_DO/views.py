@@ -2,8 +2,8 @@ from django.shortcuts import render
 from .models import To_Do
 from django.utils import timezone
 
-# Create your views here.
-t = To_Do(data='Django is well running', timeStamp=timezone.now())
+# Create your views her
+t= To_Do(data='Django is running well', timeStamp=timezone.now())
 t.save()
 
 
